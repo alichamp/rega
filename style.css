@@ -1,0 +1,12 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: center;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="text-align: center;">Регистрация</h1>
+    <form action="answer.html">
+        <input type="text" name="name" placeholder="Имя" required>
+        <br>
+        <input type="text" name="surname" placeholder="Фамилия" required>
+        <br>
+        <input type="email" name="email" placeholder="Email" required>
+        <br>
+        <input type="number" name="number" placeholder="Телефон" required>
+        <br>
+        <input type="number" name="age" placeholder="Возраст" required>
+        <br>
+        <select name="learning" required>
+            <option value="" disabled selected>Выберите направление обучения</option>
+            <option value="frontend">Frontend</option>
+            <option value="backend">Backend</option>
+        </select>
+        <br>
+        <input type="radio" name="gender" value="offline" required> Offline
+        <br>
+        <input type="radio" name="gender" value="online" required> Online
+        <br>
+        <textarea name="message" id="" placeholder="Сообщените нам, если у вас есть вопросы"></textarea>
+        <br>
+        <input type="checkbox" name="agreement" required> Я согласен с условиями
+        <br>
+        <button type="submit">Отправить</button>
+    </form>
+</body>
+</html>
